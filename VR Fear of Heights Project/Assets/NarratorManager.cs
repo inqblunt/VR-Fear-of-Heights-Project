@@ -1,12 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class NarratorManager : MonoBehaviour
 {
     public int narrationStage;
     public AudioSource narrationAudio;
     public AudioClip[] narrations;
+
+    public TextMeshPro[] narrationTexts;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +28,14 @@ public class NarratorManager : MonoBehaviour
         narrationStage++;
         narrationAudio.clip = narrations[narrationStage];
         narrationAudio.Play();
+    }
 
+    public IEnumerator startGameEnumerator()
+    {
+        while (true)
+        {
+            narrationAudio.clip = narrations[0];
+            yield return new WaitForSeconds(narrationAudio.clip.length);
+        }
     }
 }
