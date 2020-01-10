@@ -62,13 +62,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Belt.cs" />
     <Compile Include="Assets\Climber.cs" />
     <Compile Include="Assets\ClimbingHand.cs" />
     <Compile Include="Assets\ControllerGrabObject.cs" />
     <Compile Include="Assets\NarratorManager.cs" />
     <Compile Include="Assets\NarratorTrigger.cs" />
+    <Compile Include="Assets\Scripts\Interactable.cs" />
+    <Compile Include="Assets\Scripts\InteractingHand.cs" />
+    <Compile Include="Assets\Scripts\ItemSocket.cs" />
     <Compile Include="Assets\Scripts\LaserPointer.cs" />
+    <Compile Include="Assets\Scripts\Moveable.cs" />
     <Compile Include="Assets\Scripts\PlayerActions.cs" />
+    <Compile Include="Assets\Scripts\Utility.cs" />
+    <Compile Include="Assets\Slot.cs" />
+    <Compile Include="Assets\Socket.cs" />
     <Compile Include="Assets\UI_Object.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>H:/Documents/Work/GitHub/VR-Fear-of-Heights-Project/VR Fear of Heights Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
