@@ -29,6 +29,6 @@ public class Waypoint : MonoBehaviour
             }
         }
         manager.ScoreCount++;
-        Destroy(gameObject);        
+        gameObject.SetActive(false);        
     }
 }
