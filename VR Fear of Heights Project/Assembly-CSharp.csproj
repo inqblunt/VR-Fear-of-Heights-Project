@@ -78,6 +78,8 @@
     <Compile Include="Assets\Slot.cs" />
     <Compile Include="Assets\Socket.cs" />
     <Compile Include="Assets\UI_Object.cs" />
+    <Compile Include="Assets\Waypoint.cs" />
+    <Compile Include="Assets\WaypointManager.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>H:/Documents/Work/GitHub/VR-Fear-of-Heights-Project/VR Fear of Heights Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
