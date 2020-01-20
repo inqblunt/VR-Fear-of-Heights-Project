@@ -10,10 +10,12 @@ public class Belt : MonoBehaviour
 
     private Transform head = null;
 
+    public Camera mainCamera;
+
     // Start is called before the first frame update
     private void Start()
     {
-        head = SteamVR_Render.Top().head;
+        head = mainCamera.transform;
     }
 
     // Update is called once per frame
